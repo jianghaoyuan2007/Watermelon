@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 
   s.name         = "Watermelon"
   s.version      = "0.0.1"
-  s.summary      = "A short description of Watermelon."
+  s.summary      = "This is a Watermelon framework."
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -25,6 +25,7 @@ Pod::Spec.new do |s|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = <<-DESC
+                    This is a part of the SuperMakert project.
                    DESC
 
   s.homepage     = "https://github.com/jianghaoyuan2007/Watermelon"
@@ -133,5 +134,5 @@ Pod::Spec.new do |s|
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # s.dependency "JSONKit", "~> 1.4"
-
+  s.dependency "Masonry", "~> 1.0.2"
 end

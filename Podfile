@@ -8,7 +8,7 @@ target 'Watermelon' do
   # use_frameworks!
 
   # Pods for Watermelon
-
+  pod 'Masonry', '~> 1.0.2'
   target 'WatermelonTests' do
     inherit! :search_paths
     # Pods for testing

@@ -15,11 +15,13 @@
 		2C3363D11EF1328400E40807 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C3363D01EF1328400E40807 /* Assets.xcassets */; };
 		2C3363D41EF1328400E40807 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C3363D21EF1328400E40807 /* LaunchScreen.storyboard */; };
 		2C3363D91EF1329400E40807 /* Watermelon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C725DF31EF0C528009B6E59 /* Watermelon.framework */; };
+		2C59556F1EF39C800040B712 /* WatermelonViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C59556D1EF39C800040B712 /* WatermelonViewController.h */; };
+		2C5955701EF39C800040B712 /* WatermelonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C59556E1EF39C800040B712 /* WatermelonViewController.m */; };
+		2C5955741EF39E300040B712 /* Target_Watermelon.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C5955721EF39E300040B712 /* Target_Watermelon.h */; };
+		2C5955751EF39E300040B712 /* Target_Watermelon.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C5955731EF39E300040B712 /* Target_Watermelon.m */; };
 		2C725DFD1EF0C528009B6E59 /* Watermelon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C725DF31EF0C528009B6E59 /* Watermelon.framework */; };
 		2C725E021EF0C528009B6E59 /* WatermelonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C725E011EF0C528009B6E59 /* WatermelonTests.m */; };
 		2C725E391EF0C612009B6E59 /* Watermelon.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C725E371EF0C612009B6E59 /* Watermelon.h */; };
-		2C725E3C1EF0C68D009B6E59 /* ReplaceMe.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C725E3A1EF0C68D009B6E59 /* ReplaceMe.h */; };
-		2C725E3D1EF0C68D009B6E59 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C725E3B1EF0C68D009B6E59 /* ReplaceMe.m */; };
 		6AA09A8A18ABFBA3C8F338CD /* libPods-WatermelonTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DA91DA89A333D55E0E7575B /* libPods-WatermelonTests.a */; };
 		CB89D81FA2E3AEE80ECADACA /* libPods-Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B7E8F793870A6DE17CFFED4 /* libPods-Example.a */; };
 /* End PBXBuildFile section */
@@ -49,14 +51,16 @@
 		2C3363D01EF1328400E40807 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2C3363D31EF1328400E40807 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2C3363D51EF1328400E40807 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C59556D1EF39C800040B712 /* WatermelonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WatermelonViewController.h; sourceTree = "<group>"; };
+		2C59556E1EF39C800040B712 /* WatermelonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WatermelonViewController.m; sourceTree = "<group>"; };
+		2C5955721EF39E300040B712 /* Target_Watermelon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Target_Watermelon.h; sourceTree = "<group>"; };
+		2C5955731EF39E300040B712 /* Target_Watermelon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Target_Watermelon.m; sourceTree = "<group>"; };
 		2C725DF31EF0C528009B6E59 /* Watermelon.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Watermelon.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C725DFC1EF0C528009B6E59 /* WatermelonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WatermelonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C725E011EF0C528009B6E59 /* WatermelonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WatermelonTests.m; sourceTree = "<group>"; };
 		2C725E031EF0C528009B6E59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2C725E361EF0C612009B6E59 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2C725E371EF0C612009B6E59 /* Watermelon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Watermelon.h; sourceTree = "<group>"; };
-		2C725E3A1EF0C68D009B6E59 /* ReplaceMe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReplaceMe.h; sourceTree = "<group>"; };
-		2C725E3B1EF0C68D009B6E59 /* ReplaceMe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
 		5DD2D34061E7B8BBAF85FC5F /* Pods-WatermelonTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WatermelonTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WatermelonTests/Pods-WatermelonTests.debug.xcconfig"; sourceTree = "<group>"; };
 		692304C4A28164647BA489B7 /* Pods-Watermelon_EXAMPLE.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Watermelon_EXAMPLE.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Watermelon_EXAMPLE/Pods-Watermelon_EXAMPLE.debug.xcconfig"; sourceTree = "<group>"; };
 		728BE8B2977AC832744E6903 /* libPods-Watermelon.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Watermelon.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -132,6 +136,15 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		2C5955711EF39CB90040B712 /* Targets */ = {
+			isa = PBXGroup;
+			children = (
+				2C5955721EF39E300040B712 /* Target_Watermelon.h */,
+				2C5955731EF39E300040B712 /* Target_Watermelon.m */,
+			);
+			path = Targets;
+			sourceTree = "<group>";
+		};
 		2C725DE71EF0C511009B6E59 = {
 			isa = PBXGroup;
 			children = (
@@ -166,10 +179,11 @@
 		2C725E351EF0C612009B6E59 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				2C5955711EF39CB90040B712 /* Targets */,
 				2C725E361EF0C612009B6E59 /* Info.plist */,
 				2C725E371EF0C612009B6E59 /* Watermelon.h */,
-				2C725E3A1EF0C68D009B6E59 /* ReplaceMe.h */,
-				2C725E3B1EF0C68D009B6E59 /* ReplaceMe.m */,
+				2C59556D1EF39C800040B712 /* WatermelonViewController.h */,
+				2C59556E1EF39C800040B712 /* WatermelonViewController.m */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -197,7 +211,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				2C725E391EF0C612009B6E59 /* Watermelon.h in Headers */,
-				2C725E3C1EF0C68D009B6E59 /* ReplaceMe.h in Headers */,
+				2C59556F1EF39C800040B712 /* WatermelonViewController.h in Headers */,
+				2C5955741EF39E300040B712 /* Target_Watermelon.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -475,7 +490,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2C725E3D1EF0C68D009B6E59 /* ReplaceMe.m in Sources */,
+				2C5955751EF39E300040B712 /* Target_Watermelon.m in Sources */,
+				2C5955701EF39C800040B712 /* WatermelonViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
