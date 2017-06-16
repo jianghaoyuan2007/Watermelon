@@ -1,0 +1,908 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1DF6FF9D8F7B79FEC94B381B /* libPods-Watermelon.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 728BE8B2977AC832744E6903 /* libPods-Watermelon.a */; };
+		2C3363C61EF1328400E40807 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C3363C51EF1328400E40807 /* main.m */; };
+		2C3363C91EF1328400E40807 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C3363C81EF1328400E40807 /* AppDelegate.m */; };
+		2C3363CC1EF1328400E40807 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C3363CB1EF1328400E40807 /* ViewController.m */; };
+		2C3363CF1EF1328400E40807 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C3363CD1EF1328400E40807 /* Main.storyboard */; };
+		2C3363D11EF1328400E40807 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C3363D01EF1328400E40807 /* Assets.xcassets */; };
+		2C3363D41EF1328400E40807 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C3363D21EF1328400E40807 /* LaunchScreen.storyboard */; };
+		2C3363D91EF1329400E40807 /* Watermelon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C725DF31EF0C528009B6E59 /* Watermelon.framework */; };
+		2C725DFD1EF0C528009B6E59 /* Watermelon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C725DF31EF0C528009B6E59 /* Watermelon.framework */; };
+		2C725E021EF0C528009B6E59 /* WatermelonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C725E011EF0C528009B6E59 /* WatermelonTests.m */; };
+		2C725E391EF0C612009B6E59 /* Watermelon.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C725E371EF0C612009B6E59 /* Watermelon.h */; };
+		2C725E3C1EF0C68D009B6E59 /* ReplaceMe.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C725E3A1EF0C68D009B6E59 /* ReplaceMe.h */; };
+		2C725E3D1EF0C68D009B6E59 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C725E3B1EF0C68D009B6E59 /* ReplaceMe.m */; };
+		6AA09A8A18ABFBA3C8F338CD /* libPods-WatermelonTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DA91DA89A333D55E0E7575B /* libPods-WatermelonTests.a */; };
+		CB89D81FA2E3AEE80ECADACA /* libPods-Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B7E8F793870A6DE17CFFED4 /* libPods-Example.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2C725DFE1EF0C528009B6E59 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2C725DE81EF0C511009B6E59 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2C725DF21EF0C528009B6E59;
+			remoteInfo = Watermelon;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		05732AC487EDB26B88391785 /* Pods-Watermelon_EXAMPLE.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Watermelon_EXAMPLE.release.xcconfig"; path = "Pods/Target Support Files/Pods-Watermelon_EXAMPLE/Pods-Watermelon_EXAMPLE.release.xcconfig"; sourceTree = "<group>"; };
+		14E8B8F2481420BC5F669FCB /* Pods-Watermelon.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Watermelon.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Watermelon/Pods-Watermelon.debug.xcconfig"; sourceTree = "<group>"; };
+		1DA91DA89A333D55E0E7575B /* libPods-WatermelonTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WatermelonTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B7585F3C8663BBE21DCB9AD /* Pods-WatermelonTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WatermelonTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WatermelonTests/Pods-WatermelonTests.release.xcconfig"; sourceTree = "<group>"; };
+		2C3363C21EF1328400E40807 /* Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C3363C51EF1328400E40807 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2C3363C71EF1328400E40807 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2C3363C81EF1328400E40807 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2C3363CA1EF1328400E40807 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2C3363CB1EF1328400E40807 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2C3363CE1EF1328400E40807 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2C3363D01EF1328400E40807 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2C3363D31EF1328400E40807 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2C3363D51EF1328400E40807 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C725DF31EF0C528009B6E59 /* Watermelon.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Watermelon.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C725DFC1EF0C528009B6E59 /* WatermelonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WatermelonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C725E011EF0C528009B6E59 /* WatermelonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WatermelonTests.m; sourceTree = "<group>"; };
+		2C725E031EF0C528009B6E59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C725E361EF0C612009B6E59 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C725E371EF0C612009B6E59 /* Watermelon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Watermelon.h; sourceTree = "<group>"; };
+		2C725E3A1EF0C68D009B6E59 /* ReplaceMe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReplaceMe.h; sourceTree = "<group>"; };
+		2C725E3B1EF0C68D009B6E59 /* ReplaceMe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
+		5DD2D34061E7B8BBAF85FC5F /* Pods-WatermelonTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WatermelonTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WatermelonTests/Pods-WatermelonTests.debug.xcconfig"; sourceTree = "<group>"; };
+		692304C4A28164647BA489B7 /* Pods-Watermelon_EXAMPLE.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Watermelon_EXAMPLE.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Watermelon_EXAMPLE/Pods-Watermelon_EXAMPLE.debug.xcconfig"; sourceTree = "<group>"; };
+		728BE8B2977AC832744E6903 /* libPods-Watermelon.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Watermelon.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B7E8F793870A6DE17CFFED4 /* libPods-Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4E531CFC02893A060672549 /* Pods-Watermelon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Watermelon.release.xcconfig"; path = "Pods/Target Support Files/Pods-Watermelon/Pods-Watermelon.release.xcconfig"; sourceTree = "<group>"; };
+		EC8E7A0747AA8225C48C5B5D /* Pods-Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Example/Pods-Example.debug.xcconfig"; sourceTree = "<group>"; };
+		ED588FD24115113EEAAB4EC1 /* Pods-Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-Example/Pods-Example.release.xcconfig"; sourceTree = "<group>"; };
+		F17655BE0078FEAF5460ABEC /* libPods-Watermelon_EXAMPLE.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Watermelon_EXAMPLE.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2C3363BF1EF1328400E40807 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C3363D91EF1329400E40807 /* Watermelon.framework in Frameworks */,
+				CB89D81FA2E3AEE80ECADACA /* libPods-Example.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C725DEF1EF0C528009B6E59 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DF6FF9D8F7B79FEC94B381B /* libPods-Watermelon.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C725DF91EF0C528009B6E59 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C725DFD1EF0C528009B6E59 /* Watermelon.framework in Frameworks */,
+				6AA09A8A18ABFBA3C8F338CD /* libPods-WatermelonTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F785A4C5537BD4CD1DFCD96 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				728BE8B2977AC832744E6903 /* libPods-Watermelon.a */,
+				1DA91DA89A333D55E0E7575B /* libPods-WatermelonTests.a */,
+				F17655BE0078FEAF5460ABEC /* libPods-Watermelon_EXAMPLE.a */,
+				7B7E8F793870A6DE17CFFED4 /* libPods-Example.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2C3363C31EF1328400E40807 /* Example */ = {
+			isa = PBXGroup;
+			children = (
+				2C3363C71EF1328400E40807 /* AppDelegate.h */,
+				2C3363C81EF1328400E40807 /* AppDelegate.m */,
+				2C3363CA1EF1328400E40807 /* ViewController.h */,
+				2C3363CB1EF1328400E40807 /* ViewController.m */,
+				2C3363CD1EF1328400E40807 /* Main.storyboard */,
+				2C3363D01EF1328400E40807 /* Assets.xcassets */,
+				2C3363D21EF1328400E40807 /* LaunchScreen.storyboard */,
+				2C3363D51EF1328400E40807 /* Info.plist */,
+				2C3363C41EF1328400E40807 /* Supporting Files */,
+			);
+			path = Example;
+			sourceTree = "<group>";
+		};
+		2C3363C41EF1328400E40807 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2C3363C51EF1328400E40807 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2C725DE71EF0C511009B6E59 = {
+			isa = PBXGroup;
+			children = (
+				2C725E351EF0C612009B6E59 /* Sources */,
+				2C725E001EF0C528009B6E59 /* WatermelonTests */,
+				2C3363C31EF1328400E40807 /* Example */,
+				2C725DF41EF0C528009B6E59 /* Products */,
+				3CE8D532542F5F753ED7E784 /* Pods */,
+				0F785A4C5537BD4CD1DFCD96 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2C725DF41EF0C528009B6E59 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2C725DF31EF0C528009B6E59 /* Watermelon.framework */,
+				2C725DFC1EF0C528009B6E59 /* WatermelonTests.xctest */,
+				2C3363C21EF1328400E40807 /* Example.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2C725E001EF0C528009B6E59 /* WatermelonTests */ = {
+			isa = PBXGroup;
+			children = (
+				2C725E011EF0C528009B6E59 /* WatermelonTests.m */,
+				2C725E031EF0C528009B6E59 /* Info.plist */,
+			);
+			path = WatermelonTests;
+			sourceTree = "<group>";
+		};
+		2C725E351EF0C612009B6E59 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				2C725E361EF0C612009B6E59 /* Info.plist */,
+				2C725E371EF0C612009B6E59 /* Watermelon.h */,
+				2C725E3A1EF0C68D009B6E59 /* ReplaceMe.h */,
+				2C725E3B1EF0C68D009B6E59 /* ReplaceMe.m */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		3CE8D532542F5F753ED7E784 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				14E8B8F2481420BC5F669FCB /* Pods-Watermelon.debug.xcconfig */,
+				C4E531CFC02893A060672549 /* Pods-Watermelon.release.xcconfig */,
+				5DD2D34061E7B8BBAF85FC5F /* Pods-WatermelonTests.debug.xcconfig */,
+				2B7585F3C8663BBE21DCB9AD /* Pods-WatermelonTests.release.xcconfig */,
+				692304C4A28164647BA489B7 /* Pods-Watermelon_EXAMPLE.debug.xcconfig */,
+				05732AC487EDB26B88391785 /* Pods-Watermelon_EXAMPLE.release.xcconfig */,
+				EC8E7A0747AA8225C48C5B5D /* Pods-Example.debug.xcconfig */,
+				ED588FD24115113EEAAB4EC1 /* Pods-Example.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2C725DF01EF0C528009B6E59 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C725E391EF0C612009B6E59 /* Watermelon.h in Headers */,
+				2C725E3C1EF0C68D009B6E59 /* ReplaceMe.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2C3363C11EF1328400E40807 /* Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C3363D61EF1328400E40807 /* Build configuration list for PBXNativeTarget "Example" */;
+			buildPhases = (
+				9FA658176C0CC2534E948817 /* [CP] Check Pods Manifest.lock */,
+				2C3363BE1EF1328400E40807 /* Sources */,
+				2C3363BF1EF1328400E40807 /* Frameworks */,
+				2C3363C01EF1328400E40807 /* Resources */,
+				BBE53EFE38E5521348C91F69 /* [CP] Embed Pods Frameworks */,
+				31A3B70348D4A29C573CA325 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Example;
+			productName = Example;
+			productReference = 2C3363C21EF1328400E40807 /* Example.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2C725DF21EF0C528009B6E59 /* Watermelon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C725E051EF0C528009B6E59 /* Build configuration list for PBXNativeTarget "Watermelon" */;
+			buildPhases = (
+				83C840F43B5C1E144AD41994 /* [CP] Check Pods Manifest.lock */,
+				2C725DEE1EF0C528009B6E59 /* Sources */,
+				2C725DEF1EF0C528009B6E59 /* Frameworks */,
+				2C725DF01EF0C528009B6E59 /* Headers */,
+				2C725DF11EF0C528009B6E59 /* Resources */,
+				7E297CB010EAA417C21CB6E6 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Watermelon;
+			productName = Watermelon;
+			productReference = 2C725DF31EF0C528009B6E59 /* Watermelon.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		2C725DFB1EF0C528009B6E59 /* WatermelonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C725E081EF0C528009B6E59 /* Build configuration list for PBXNativeTarget "WatermelonTests" */;
+			buildPhases = (
+				750941B766BD4F52539AD352 /* [CP] Check Pods Manifest.lock */,
+				2C725DF81EF0C528009B6E59 /* Sources */,
+				2C725DF91EF0C528009B6E59 /* Frameworks */,
+				2C725DFA1EF0C528009B6E59 /* Resources */,
+				4D73B377353368B170B6043E /* [CP] Embed Pods Frameworks */,
+				943E334CCFFFC64A8930B3C6 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2C725DFF1EF0C528009B6E59 /* PBXTargetDependency */,
+			);
+			name = WatermelonTests;
+			productName = WatermelonTests;
+			productReference = 2C725DFC1EF0C528009B6E59 /* WatermelonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2C725DE81EF0C511009B6E59 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				TargetAttributes = {
+					2C3363C11EF1328400E40807 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = V455LT9HQ8;
+						ProvisioningStyle = Automatic;
+					};
+					2C725DF21EF0C528009B6E59 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = V455LT9HQ8;
+						ProvisioningStyle = Automatic;
+					};
+					2C725DFB1EF0C528009B6E59 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = V455LT9HQ8;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 2C725DEB1EF0C511009B6E59 /* Build configuration list for PBXProject "Watermelon" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2C725DE71EF0C511009B6E59;
+			productRefGroup = 2C725DF41EF0C528009B6E59 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2C725DF21EF0C528009B6E59 /* Watermelon */,
+				2C725DFB1EF0C528009B6E59 /* WatermelonTests */,
+				2C3363C11EF1328400E40807 /* Example */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2C3363C01EF1328400E40807 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C3363D41EF1328400E40807 /* LaunchScreen.storyboard in Resources */,
+				2C3363D11EF1328400E40807 /* Assets.xcassets in Resources */,
+				2C3363CF1EF1328400E40807 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C725DF11EF0C528009B6E59 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C725DFA1EF0C528009B6E59 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		31A3B70348D4A29C573CA325 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Example/Pods-Example-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4D73B377353368B170B6043E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WatermelonTests/Pods-WatermelonTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		750941B766BD4F52539AD352 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7E297CB010EAA417C21CB6E6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Watermelon/Pods-Watermelon-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		83C840F43B5C1E144AD41994 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		943E334CCFFFC64A8930B3C6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WatermelonTests/Pods-WatermelonTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9FA658176C0CC2534E948817 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BBE53EFE38E5521348C91F69 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Example/Pods-Example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2C3363BE1EF1328400E40807 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C3363CC1EF1328400E40807 /* ViewController.m in Sources */,
+				2C3363C91EF1328400E40807 /* AppDelegate.m in Sources */,
+				2C3363C61EF1328400E40807 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C725DEE1EF0C528009B6E59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C725E3D1EF0C68D009B6E59 /* ReplaceMe.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C725DF81EF0C528009B6E59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C725E021EF0C528009B6E59 /* WatermelonTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2C725DFF1EF0C528009B6E59 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2C725DF21EF0C528009B6E59 /* Watermelon */;
+			targetProxy = 2C725DFE1EF0C528009B6E59 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2C3363CD1EF1328400E40807 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2C3363CE1EF1328400E40807 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2C3363D21EF1328400E40807 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2C3363D31EF1328400E40807 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2C3363D71EF1328400E40807 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC8E7A0747AA8225C48C5B5D /* Pods-Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = V455LT9HQ8;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = Example/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = net.stephenchiang.Example;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2C3363D81EF1328400E40807 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED588FD24115113EEAAB4EC1 /* Pods-Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = V455LT9HQ8;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = Example/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = net.stephenchiang.Example;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2C725DEC1EF0C511009B6E59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2C725DED1EF0C511009B6E59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		2C725E061EF0C528009B6E59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 14E8B8F2481420BC5F669FCB /* Pods-Watermelon.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = V455LT9HQ8;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/Sources/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "net.stephenchiang.POD-NAME";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2C725E071EF0C528009B6E59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4E531CFC02893A060672549 /* Pods-Watermelon.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = V455LT9HQ8;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/Sources/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "net.stephenchiang.POD-NAME";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2C725E091EF0C528009B6E59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5DD2D34061E7B8BBAF85FC5F /* Pods-WatermelonTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = V455LT9HQ8;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = WatermelonTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "net.stephenchiang.POD-NAMETests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2C725E0A1EF0C528009B6E59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B7585F3C8663BBE21DCB9AD /* Pods-WatermelonTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = V455LT9HQ8;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = WatermelonTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "net.stephenchiang.POD-NAMETests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2C3363D61EF1328400E40807 /* Build configuration list for PBXNativeTarget "Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C3363D71EF1328400E40807 /* Debug */,
+				2C3363D81EF1328400E40807 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C725DEB1EF0C511009B6E59 /* Build configuration list for PBXProject "Watermelon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C725DEC1EF0C511009B6E59 /* Debug */,
+				2C725DED1EF0C511009B6E59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C725E051EF0C528009B6E59 /* Build configuration list for PBXNativeTarget "Watermelon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C725E061EF0C528009B6E59 /* Debug */,
+				2C725E071EF0C528009B6E59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C725E081EF0C528009B6E59 /* Build configuration list for PBXNativeTarget "WatermelonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C725E091EF0C528009B6E59 /* Debug */,
+				2C725E0A1EF0C528009B6E59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2C725DE81EF0C511009B6E59 /* Project object */;
+}
