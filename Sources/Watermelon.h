@@ -16,5 +16,4 @@ FOUNDATION_EXPORT const unsigned char WatermelonVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <Watermelon/PublicHeader.h>
 
-#import "ReplaceMe.h"
-
+#import "Target_Watermelon.h"
